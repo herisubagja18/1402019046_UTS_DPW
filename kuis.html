@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport", content="width=device-width scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>EDU-COVID</title>
+</head>
+<body>
+
+<div class="container-1">
+	<header>
+		<span class="logo">EDU-COVID</span>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="pencegahan-covid.html">Pencegahan COVID-19</a></li>
+			<li><a href="data-statistik.html">Data dan Statistik</a></li>
+			<li><a href="kuis.html">Kuis</a></li>
+		</ul>
+	</nav>
+</div>
+
+<div class="container-2">
+	<form action="/action_page.php">
+		<p>1. Pembatasan kegiatan masyrakat di jakarta disebut..<br>
+		<input type="radio" id="a" name="soal" value="pssi"><label for="a">PSSI</label><br>
+		<input type="radio" id="b" name="soal" value="psps"><label for="b">PSPS</label><br>
+		<input type="radio" id="c" name="soal" value="psbb"><label for="c">PSBB</label><br></p>
+
+		<p>2. Di negara mana pertama kali virus covid-19 hadir?<br>
+			<input type="radio" id="a-2" name="soal" value="indonesia"><label for="a-2">Indonesia</label><br>
+			<input type="radio" id="b-2" name="soal" value="china"><label for="b-2">China</label><br>
+			<input type="radio" id="c-2" name="soal" value="kazakhstan"><label for="c-2">Kazakhstan</label><br></p>
+		<p>3. Gejala apa yang paling mencolok ketika seseorang terkena covid-19?<br>
+			<input type="radio" id="a-3" name="soal" value="sakit kepala"><label for="a-3">Sakit kepala</label><br>
+			<input type="radio" id="b-3" name="soal" value="sakit hati"><label for="b-3">Sakit hati</label><br>
+			<input type="radio" id="c-3" name="soal" value="sakit kepala"><label for="c-3">Demam, batuk kering, sesak nafas</label><br></p>
+		<p>4. Di karenakan masa pandemi seperti sekarang semua pelajar belajar jarak jauh, yang biasa di sebut...<br>
+			<input type="radio" id="a-4" name="soal" value="online"><label for="a-4">Online</label><br>
+			<input type="radio" id="b-4" name="soal" value="daaring"><label for="b-4">Daring</label><br>
+			<input type="radio" id="c-4" name="soal" value="offline"><label for="c-4">Offline</label><br></p>
+		<p>5. Arti lockdown dalam bahasa Indonesia adalah...<br>
+			<input type="radio" id="a-5" name="soal" value="terkunci"><label for="a-5">terkunci</label><br>
+			<input type="radio" id="b-5" name="soal" value="tergembok"><label for="b-5">tergembok</label><br>
+			<input type="radio" id="c-5" name="soal" value="tertutup"><label for="c-5">tertutup</label><br></p>
+		<button type="button" onclick="submit()">Submit</button>
+	</form>
+</div>
+
+<script type="text/javascript">
+	function submit() {
+		alert('Terima kasih sudah berkunjung');
+	}
+</script>
+</body>
+</html>
